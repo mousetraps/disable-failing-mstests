@@ -1,4 +1,3 @@
-var strReplace = require('./replaceBetween');
 var xml2js = require('xml2js');
 var fs = require('fs');
 var path = require('path');
@@ -48,4 +47,3 @@ xml2js.parseString(testResults, function cb(err, result) {
 });
 
 console.log(process.argv[2])
-console.log("The Hello World Code!".replaceBetween(4, 9, "Hi"));
